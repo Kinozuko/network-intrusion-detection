@@ -10,3 +10,50 @@ For each TCP/IP connection, 41 quantitative and qualitative features are obtaine
 * Anomalous
 
 ```
+
+* Colaboratory
+* Jupyter
+* Python script
+
+In this repository we will create three models for a network instrusion detection, the models are:
+
+* Naive bayes (87.69% accuracy)
+* Linear SCV (92.93% accuracy)
+* K-Neighbors (98.88% accuracy)
+
+## Structure
+
+```
+.
+├── .gitignore 
+├── README.md
+├── requirements.txt
+├── data/
+│   └── dataset.csv
+├── jupyter/
+│   └── nid.ipynb
+├── script/
+│   └── nid.py
+├── models
+│   ├── gnb_model
+│   ├── neigh_model
+│   └── svc_model
+```
+
+## Runing Project
+
+### Installing Dependecies
+
+* pip install -r requirements.txt
+
+### Running Script
+
+* python script/nid.py
+
+### Running Jupyter Notebook
+
+* jupyter notebook jupyter/nid.ipynb
+
+### Running Colaboratory
+
+* [See in Colaboratory](https://colab.research.google.com/drive/1omTEYcbPcWe46uSGH1YlXHAN-4aw63xL?usp=sharing)
