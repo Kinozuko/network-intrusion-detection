@@ -3,3 +3,4 @@ numpy
 matplotlib
 feature_selector
 sklearn
+jupyter
